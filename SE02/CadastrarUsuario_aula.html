@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Cadastrar Usuário</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="jumbotron">
+            <h1 class="display-4 text-center font-weight-bold">Sistema</h1>
+        </div>
+
+
+        <div class="card">
+            <div class="card-header">
+                Cadastrar Usuário
+            </div>
+            <div class="card-body">
+                
+                <form action="">
+
+                    <div class="form-group">
+                        <label for="">Nome</label>
+                        <input type="text" class="form-control">
+                        <span class="bg-danger">Tamanho do nome menor que 10 caracteres</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">E-mail</label>
+                        <input type="text" class="form-control">
+                        <span class="bg-danger">Tamanho do e-mail menor que 10 caracteres</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Perfil</label>
+                        <select class="form-control">
+                            <option value="">Administrador</option>
+                            <option value="">Gerente</option>
+                            <option value="">Chefe</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Senha</label>
+                        <input type="password" class="form-control">
+                        <span class="bg-danger">Tamanho da senha menor que 6 caracteres</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Confirma Senha</label>
+                        <input type="password" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Observações</label>
+                        <textarea class="form-control"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button class="btn btn-light">Salvar</button>
+                    </div>
+
+                </form>
+
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>E-mail</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Antonio Cesar</td>
+                            <td>antonio.cesar@empresa.com.br</td>
+                        </tr>
+                        <tr>
+                            <td>Estela Santos</td>
+                            <td>estela.santos@empresa.com.br</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h5 class="bg-success">Usuário Salvo</h5>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+</html>

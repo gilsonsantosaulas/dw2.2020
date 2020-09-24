@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Sistema de Vendas</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="jumbotron">
+            <h1 class="display-4 text-center font-weight-bold">Sistemas de Vendas</h1>
+        </div>
+
+
+
+        <!-- aqui é o menu do sistema (ctrl+; comenta a linha) -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Início <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contas a Pagar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contas a Receber</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Vendas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <p></p>
+        <!-- shift alt f para formatar a idententação -->
+        <div class="card">
+            <h5 class="card-header">Produto para Vender</h5>
+            <div class="card-body">
+                <form action="">
+
+                    <div class="form-group">
+                        <label for="">Cliente</label>
+                        <select class="form-control">
+                            <option value="">Antonio Cesar</option>
+                            <option value="">Ricardo Alves</option>
+                            <option value="">Maria Antonia</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Nome do Produto</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Quantidade</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Preço Unitário</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Observaçoes</label>
+                        <textarea class="form-control"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button class="btn btn-light">Vender</button>
+                        <button class="btn btn-light">Limpar</button>
+                    </div>
+
+                </form>
+
+                <h4>Produtos Vendidos</h4>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Nome do Produto</th>
+                            <th>Qtde</th>
+                            <th>Preço Unitário</th>
+                            <th>Preço Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mouse 3 botões</td>
+                            <td>3</td>
+                            <td>30</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Teclado</td>
+                            <td>1</td>
+                            <td>50</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>HD externo 1 TB</td>
+                            <td>2</td>
+                            <td>250</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h5 class="text-right">Total do Pedido:</h5>
+                <h5 class="text-right">640</h5>
+            </div>  
+        </div>
+
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+</html>
